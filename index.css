@@ -1,0 +1,13 @@
+#bloco {
+    color:blue;
+    text-shadow: black 5px 5px;
+}
+
+.bloco{
+    background-color: blueviolet;
+    color: black !important;
+
+}
+.fonttam{
+    font-size: 22px;
+}
