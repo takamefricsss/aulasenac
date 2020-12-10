@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        body{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de aluno</h1>
+
+    <input type="text" placeholder="Nome" name="nome" id="nome">
+    <input type="text" placeholder="Sobrenome" name="sobrenome" id="sobrenome">
+    <input type="date" name="data" id="data">
+    <input type="email" placeholder="E-mail" name="email" id="email">
+    <br>
+    <button onclick="mudarnome()">Mudar Nome</button>
+    <button onclick="mudarsobrenome()"> Mudar Sobrenome</button>
+    <button onclick="mudaremail()"> Mudar E-mail</button>
+    <button onclick="limpardados()">Zerar Dados</button>
+
+</body>
+<script>
+
+    function mudarnome(){
+        document.getElementById('nome').value="Flávio Guilherme"
+    }
+    function mudarsobrenome() {
+        document.getElementById('sobrenome').value="Silva"
+        
+        
+    }
+    function mudaremail() {
+        document.getElementById('email').value="flaviogdfsilva@recife.pe.senac.br"
+
+        
+    }
+    function limpardados() {
+        document.getElementById('nome').value=""
+        document.getElementById('sobrenome').value=""
+        document.getElementById('email').value=""
+    }
+    
+        
+    
+        
+    
+    
+        
+    
+
+</script>
+</html>
